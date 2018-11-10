@@ -9,7 +9,7 @@ public class playerController : MonoBehaviour {
     private float moveInputH;
     private float moveInputV;
 
-    private bool facingRight = true;
+    private bool facingRight;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -27,14 +27,16 @@ public class playerController : MonoBehaviour {
     public Animator animator;
 
 	// Use this for initialization
+
 	void Start () {
 
         extraJump = extraJumpValue;
 
         rb = GetComponent<Rigidbody2D>();
 
-		
-	}
+        facingRight = true;
+
+    }
 
     //Es recomendable para hacer cambios en el rigidbody
 
@@ -89,10 +91,8 @@ public class playerController : MonoBehaviour {
     private void Update()
     {
         //se maneja el salto 
-
         if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")))
         {
-
             if (isGrounded)
             {
                 rb.velocity = Vector2.up * jumpForce;
@@ -104,10 +104,9 @@ public class playerController : MonoBehaviour {
                     rb.velocity = Vector2.up * jumpForce;
                     extraJump--;
                 }
-
             }
-
         }
+        
 
         //Se maneja si se agacha o no
 
@@ -127,8 +126,8 @@ public class playerController : MonoBehaviour {
         else
         {
             //Si no se está en el suelo la animación de saltar se ejecuta
-
             animator.SetBool("Jumping", true);
+
         }
     }
 
@@ -144,4 +143,9 @@ public class playerController : MonoBehaviour {
         Scaler.x *= -1;
         transform.localScale = Scaler;
     }
+
+    
+
 }
+
+
