@@ -5,11 +5,14 @@ using UnityEngine;
 public class playerController : MonoBehaviour {
 
     public float speed;
+    public float sprint;
     public float jumpForce;
+    public float stamina;
     private float moveInputH;
     private float moveInputV;
 
     private bool facingRight;
+    public bool sprintCharged;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -35,6 +38,7 @@ public class playerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
 
         facingRight = true;
+        sprintCharged = true;
 
     }
 
@@ -64,8 +68,26 @@ public class playerController : MonoBehaviour {
         if (!(moveInputV < 0))
         {
             //Movimiento en el eje horizontal
+            if (Input.GetKey(KeyCode.LeftShift) && sprintCharged && isGrounded)
+            {
+                rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
+                stamina -= Time.deltaTime;
+                Debug.Log(stamina);
+                animator.SetBool("running", true);
+                if (stamina <= 0)
+                {
+                    sprintCharged = false;
+                }
+            }
 
-            rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
+            else if(isGrounded)
+            {
+                animator.SetBool("running", false);
+                rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
+                chargeStamina();
+            }
+            
+            
 
             //Darle la vuelta al sprite cuando mira hacia la izquierda
 
@@ -144,6 +166,20 @@ public class playerController : MonoBehaviour {
         transform.localScale = Scaler;
     }
 
+    void chargeStamina()
+    {
+        if (stamina < 3)
+        {
+            stamina += Time.deltaTime;
+        }
+        else
+        {
+            if (!sprintCharged)
+            {
+                sprintCharged = true;
+            }
+        }
+    }
     
 
 }
