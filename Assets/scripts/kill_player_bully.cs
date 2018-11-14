@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class kill_player_bully : MonoBehaviour
-{
+public class kill_player_bully : MonoBehaviour{
 
     GameObject Kiddo;
     // Use this for initialization
@@ -13,13 +12,17 @@ public class kill_player_bully : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
+
+
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter(Collision col)
     {
-        Kiddo.GetComponent<atributes>().life = 0;
+        if (col.gameObject.name == "Player")
+        {
+            Destroy(col.gameObject);
+        }
     }
 }
