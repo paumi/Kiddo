@@ -19,8 +19,8 @@ TagManager:
   - player
   - platforms
   - Bounds
-  - 
-  - 
+  - Enemies
+  - prueba_1
   - 
   - 
   - 
@@ -42,6 +42,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: enemies
+    uniqueID: 3721441501
     locked: 0
   - name: background
     uniqueID: 1815991007
