@@ -29,6 +29,12 @@ public class playerController : MonoBehaviour {
 
     public Animator animator;
 
+    //*******************ampliacion Amparo*******//
+
+    private Rigidbody2D nrbAmparo;
+
+    //******************finAmparo*************//
+
 	// Use this for initialization
 
 	void Start () {
@@ -36,7 +42,9 @@ public class playerController : MonoBehaviour {
         extraJump = extraJumpValue;
 
         rb = GetComponent<Rigidbody2D>();
-
+                                              /*********Amparo***********/
+        nrbAmparo = GetComponentInParent<Rigidbody2D>();
+                                               /**********AmparoFin******/
         facingRight = true;
         sprintCharged = true;
 
@@ -180,7 +188,36 @@ public class playerController : MonoBehaviour {
             }
         }
     }
-    
+    //para detectar colisiones con plataformas moviles y que pueda seguir su movimiento cuando esta sobre ellas
+
+    void OnCollisionStay2D(Collision2D col)
+    {
+       
+        if (col.gameObject.tag == "PlatformMovil")
+        {
+            transform.parent = col.transform;
+        }
+    }
+
+
+     void OnCollisionExit2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "PlatformMovil")
+        {
+            transform.parent = null;
+        }
+    }
+
+     void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "PlatformMovil")
+        {
+            nrbAmparo.velocity = new Vector3(0f, 0f, 0f);
+            transform.parent = col.transform;
+        }
+    }
+
+    //Fin plataformas moviles
 
 }
 

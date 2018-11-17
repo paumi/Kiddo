@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Harmfull
   - Spawn
+  - PlatformMovil
   layers:
   - Default
   - TransparentFX
