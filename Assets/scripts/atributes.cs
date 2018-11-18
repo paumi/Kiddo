@@ -5,7 +5,7 @@ using UnityEngine;
 public class atributes : MonoBehaviour {
 
     public int life = 1;
-    GameObject spawn;
+    public GameObject spawn;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +26,6 @@ public class atributes : MonoBehaviour {
             life = 1;
             return false;
         }
-            
 
         else
             return true;
