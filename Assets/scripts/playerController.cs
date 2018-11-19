@@ -15,6 +15,7 @@ public class playerController : MonoBehaviour {
 
     private bool facingRight;
     public bool sprintCharged;
+    private bool jumpRequest;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -50,6 +51,7 @@ public class playerController : MonoBehaviour {
         facingRight = true;
         sprintCharged = true;
         isDying = false;
+        jumpRequest = false;
 
     }
 
@@ -63,50 +65,68 @@ public class playerController : MonoBehaviour {
         moveInputH = Input.GetAxisRaw("Horizontal");
         moveInputV = Input.GetAxis("Vertical");
 
-        if (!(moveInputV < 0))
+        Debug.Log(isDead);
+        if (!isDead)
         {
-            //Movimiento en el eje horizontal
-            if (Input.GetKey(KeyCode.LeftShift) && sprintCharged)
+            if (!(moveInputV < 0))
             {
-                if (moveInputH != 0)
+                //Movimiento en el eje horizontal
+                if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("sprint")) && sprintCharged)
                 {
-                    rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
-                    stamina -= Time.deltaTime;
-                    Debug.Log(stamina);
-                    animator.SetBool("running", true);
-                    if (stamina <= 0)
+                    if (moveInputH != 0)
                     {
-                        sprintCharged = false;
+                        rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
+                        stamina -= Time.deltaTime;
+                        Debug.Log(stamina);
+                        animator.SetBool("running", true);
+                        if (stamina <= 0)
+                        {
+                            sprintCharged = false;
+                        }
+                    }
+                    else { animator.SetBool("running", false); }
+                }
+
+                else
+                {
+                    animator.SetBool("running", false);
+                    rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
+                    chargeStamina();
+                }
+
+
+
+                //Darle la vuelta al sprite cuando mira hacia la izquierda
+
+                if (moveInputH > 0 && facingRight == false)
+                {
+                    Flip();
+                }
+                else if (moveInputH < 0 && facingRight == true) { Flip(); }
+            }
+
+            if (jumpRequest)
+            {
+                if (isGrounded)
+                {
+                    rb.velocity = Vector2.up * jumpForce;
+                }
+                else
+                {
+                    if (extraJump > 0)
+                    {
+                        rb.velocity = Vector2.up * jumpForce;
+                        extraJump--;
                     }
                 }
-                else { animator.SetBool("running", false);}
-            }
 
-            else
-            {
-                     animator.SetBool("running", false);
-                     rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
-                     chargeStamina();
+                jumpRequest = false;
             }
-            
-            
-
-            //Darle la vuelta al sprite cuando mira hacia la izquierda
-
-            if (moveInputH > 0 && facingRight == false)
-            {
-                Flip();
-            }
-            else if (moveInputH < 0 && facingRight == true) { Flip(); }
         }
-        else {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        }
+
         //cambiamos la variable Speed (ver Animator) para cambiar la animación
 
         animator.SetFloat("Speed", Mathf.Abs(moveInputH * speed));
-
-        //Se comprueba que está en el suelo
 
     }
 
@@ -117,22 +137,11 @@ public class playerController : MonoBehaviour {
         //se maneja el salto 
         if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")))
         {
-            if (isGrounded)
-            {
-                rb.velocity = Vector2.up * jumpForce;
-            }
-            else
-            {
-                if (extraJump > 0)
-                {
-                    rb.velocity = Vector2.up * jumpForce;
-                    extraJump--;
-                }
-            }
+            jumpRequest = true;
         }
 
-        
 
+        isDead = gameObject.GetComponent<atributes>().dying;
 
         //Se maneja si se agacha o no
 

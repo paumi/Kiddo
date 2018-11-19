@@ -18,7 +18,7 @@ public class Camera_Movement_Pau : MonoBehaviour {
     {
         Vector3 targetPosition = target.position + desfase;
         transform.position = Vector3.Lerp(transform.position, targetPosition, softness * Time.deltaTime);
-        transform.position = new Vector3(transform.position.x, 8.8f, -10f);
+        transform.position = new Vector3(transform.position.x, 3.5f, -10f);
 
     }
 }

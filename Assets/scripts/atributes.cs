@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class atributes : MonoBehaviour {
 
-    public int life = 1;
+    public int life;
     public GameObject spawn;
     public bool dying;
     private float animationTime;
@@ -14,17 +14,22 @@ public class atributes : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         spawn = GameObject.FindGameObjectWithTag("Spawn");
-        dying = false;
+        dying = true;
 
-        animationTime = 1.5f;
-        maxAnimaionTime = 1.5f;
+        animationTime = 0.5f;
+        maxAnimaionTime = 0.5f;
 
         animator = gameObject.GetComponent<Animator>();
 
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void FixedUpdate()
+    {
+        CheckLife();
+    }
+
+    // Update is called once per frame
+    void Update () {
 
 
         if (dying)
@@ -41,7 +46,9 @@ public class atributes : MonoBehaviour {
             }
         }
 
-        CheckLife();              
+        CheckLife();
+
+
 
         if (!dying)
         {
