@@ -11,6 +11,8 @@ public class playerController : MonoBehaviour {
     private float moveInputH;
     private float moveInputV;
 
+    private bool isDying;
+
     private bool facingRight;
     public bool sprintCharged;
 
@@ -47,6 +49,7 @@ public class playerController : MonoBehaviour {
                                                /**********AmparoFin******/
         facingRight = true;
         sprintCharged = true;
+        isDying = false;
 
     }
 
@@ -54,45 +57,36 @@ public class playerController : MonoBehaviour {
 
     void FixedUpdate()
     {
-
+        
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
         moveInputH = Input.GetAxisRaw("Horizontal");
         moveInputV = Input.GetAxis("Vertical");
 
-
-        //comprobamos si toca los limites de muerte
-
-        //isDead = Physics2D.OverlapCircle(groundCheck.position, checkRadius, boundsD);
-
-        //if (isDead)
-        //{
-        //Destroy(gameObject);
-        //}
-
-        //Si no está agachado kiddo no puede moverse
-
-
         if (!(moveInputV < 0))
         {
             //Movimiento en el eje horizontal
-            if (Input.GetKey(KeyCode.LeftShift) && sprintCharged && isGrounded)
+            if (Input.GetKey(KeyCode.LeftShift) && sprintCharged)
             {
-                rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
-                stamina -= Time.deltaTime;
-                Debug.Log(stamina);
-                animator.SetBool("running", true);
-                if (stamina <= 0)
+                if (moveInputH != 0)
                 {
-                    sprintCharged = false;
+                    rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
+                    stamina -= Time.deltaTime;
+                    Debug.Log(stamina);
+                    animator.SetBool("running", true);
+                    if (stamina <= 0)
+                    {
+                        sprintCharged = false;
+                    }
                 }
+                else { animator.SetBool("running", false);}
             }
 
-            else if(isGrounded)
+            else
             {
-                animator.SetBool("running", false);
-                rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
-                chargeStamina();
+                     animator.SetBool("running", false);
+                     rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
+                     chargeStamina();
             }
             
             
@@ -136,7 +130,9 @@ public class playerController : MonoBehaviour {
                 }
             }
         }
+
         
+
 
         //Se maneja si se agacha o no
 
