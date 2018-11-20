@@ -14,7 +14,7 @@ public class atributes : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         spawn = GameObject.FindGameObjectWithTag("Spawn");
-        dying = true;
+        dying = false;
 
         animationTime = 0.5f;
         maxAnimaionTime = 0.5f;
