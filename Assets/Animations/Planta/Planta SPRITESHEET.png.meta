@@ -1,0 +1,5538 @@
+fileFormatVersion: 2
+guid: 7d5c446ef2abf2449aff5f59f7a6e15e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Planta SPRITESHEET_0
+    21300002: Planta SPRITESHEET_1
+    21300004: Planta SPRITESHEET_2
+    21300006: Planta SPRITESHEET_3
+    21300008: Planta SPRITESHEET_4
+    21300010: Planta SPRITESHEET_5
+    21300012: Planta SPRITESHEET_6
+    21300014: Planta SPRITESHEET_7
+    21300016: Planta SPRITESHEET_8
+    21300018: Planta SPRITESHEET_9
+    21300020: Planta SPRITESHEET_10
+    21300022: Planta SPRITESHEET_11
+    21300024: Planta SPRITESHEET_12
+    21300026: Planta SPRITESHEET_13
+    21300028: Planta SPRITESHEET_14
+    21300030: Planta SPRITESHEET_15
+    21300032: Planta SPRITESHEET_16
+    21300034: Planta SPRITESHEET_17
+    21300036: Planta SPRITESHEET_18
+    21300038: Planta SPRITESHEET_19
+    21300040: Planta SPRITESHEET_20
+    21300042: Planta SPRITESHEET_21
+    21300044: Planta SPRITESHEET_22
+    21300046: Planta SPRITESHEET_23
+    21300048: Planta SPRITESHEET_24
+    21300050: Planta SPRITESHEET_25
+    21300052: Planta SPRITESHEET_26
+    21300054: Planta SPRITESHEET_27
+    21300056: Planta SPRITESHEET_28
+    21300058: Planta SPRITESHEET_29
+    21300060: Planta SPRITESHEET_30
+    21300062: Planta SPRITESHEET_31
+    21300064: Planta SPRITESHEET_32
+    21300066: Planta SPRITESHEET_33
+    21300068: Planta SPRITESHEET_34
+    21300070: Planta SPRITESHEET_35
+    21300072: Planta SPRITESHEET_36
+    21300074: Planta SPRITESHEET_37
+    21300076: Planta SPRITESHEET_38
+    21300078: Planta SPRITESHEET_39
+    21300080: Planta SPRITESHEET_40
+    21300082: Planta SPRITESHEET_41
+    21300084: Planta SPRITESHEET_42
+    21300086: Planta SPRITESHEET_43
+    21300088: Planta SPRITESHEET_44
+    21300090: Planta SPRITESHEET_45
+    21300092: Planta SPRITESHEET_46
+    21300094: Planta SPRITESHEET_47
+    21300096: Planta SPRITESHEET_48
+    21300098: Planta SPRITESHEET_49
+    21300100: Planta SPRITESHEET_50
+    21300102: Planta SPRITESHEET_51
+    21300104: Planta SPRITESHEET_52
+    21300106: Planta SPRITESHEET_53
+    21300108: Planta SPRITESHEET_54
+    21300110: Planta SPRITESHEET_55
+    21300112: Planta SPRITESHEET_56
+    21300114: Planta SPRITESHEET_57
+    21300116: Planta SPRITESHEET_58
+    21300118: Planta SPRITESHEET_59
+    21300120: Planta SPRITESHEET_60
+    21300122: Planta SPRITESHEET_61
+    21300124: Planta SPRITESHEET_62
+    21300126: Planta SPRITESHEET_63
+    21300128: Planta SPRITESHEET_64
+    21300130: Planta SPRITESHEET_65
+    21300132: Planta SPRITESHEET_66
+    21300134: Planta SPRITESHEET_67
+    21300136: Planta SPRITESHEET_68
+    21300138: Planta SPRITESHEET_69
+    21300140: Planta SPRITESHEET_70
+    21300142: Planta SPRITESHEET_71
+    21300144: Planta SPRITESHEET_72
+    21300146: Planta SPRITESHEET_73
+    21300148: Planta SPRITESHEET_74
+    21300150: Planta SPRITESHEET_75
+    21300152: Planta SPRITESHEET_76
+    21300154: Planta SPRITESHEET_77
+    21300156: Planta SPRITESHEET_78
+    21300158: Planta SPRITESHEET_79
+    21300160: Planta SPRITESHEET_80
+    21300162: Planta SPRITESHEET_81
+    21300164: Planta SPRITESHEET_82
+    21300166: Planta SPRITESHEET_83
+    21300168: Planta SPRITESHEET_84
+    21300170: Planta SPRITESHEET_85
+    21300172: Planta SPRITESHEET_86
+    21300174: Planta SPRITESHEET_87
+    21300176: Planta SPRITESHEET_88
+    21300178: Planta SPRITESHEET_89
+    21300180: Planta SPRITESHEET_90
+    21300182: Planta SPRITESHEET_91
+    21300184: Planta SPRITESHEET_92
+    21300186: Planta SPRITESHEET_93
+    21300188: Planta SPRITESHEET_94
+    21300190: Planta SPRITESHEET_95
+    21300192: Planta SPRITESHEET_96
+    21300194: Planta SPRITESHEET_97
+    21300196: Planta SPRITESHEET_98
+    21300198: Planta SPRITESHEET_99
+    21300200: Planta SPRITESHEET_100
+    21300202: Planta SPRITESHEET_101
+    21300204: Planta SPRITESHEET_102
+    21300206: Planta SPRITESHEET_103
+    21300208: Planta SPRITESHEET_104
+    21300210: Planta SPRITESHEET_105
+    21300212: Planta SPRITESHEET_106
+    21300214: Planta SPRITESHEET_107
+    21300216: Planta SPRITESHEET_108
+    21300218: Planta SPRITESHEET_109
+    21300220: Planta SPRITESHEET_110
+    21300222: Planta SPRITESHEET_111
+    21300224: Planta SPRITESHEET_112
+    21300226: Planta SPRITESHEET_113
+    21300228: Planta SPRITESHEET_114
+    21300230: Planta SPRITESHEET_115
+    21300232: Planta SPRITESHEET_116
+    21300234: Planta SPRITESHEET_117
+    21300236: Planta SPRITESHEET_118
+    21300238: Planta SPRITESHEET_119
+    21300240: Planta SPRITESHEET_120
+    21300242: Planta SPRITESHEET_121
+    21300244: Planta SPRITESHEET_122
+    21300246: Planta SPRITESHEET_123
+    21300248: Planta SPRITESHEET_124
+    21300250: Planta SPRITESHEET_125
+    21300252: Planta SPRITESHEET_126
+    21300254: Planta SPRITESHEET_127
+    21300256: Planta SPRITESHEET_128
+    21300258: Planta SPRITESHEET_129
+    21300260: Planta SPRITESHEET_130
+    21300262: Planta SPRITESHEET_131
+    21300264: Planta SPRITESHEET_132
+    21300266: Planta SPRITESHEET_133
+    21300268: Planta SPRITESHEET_134
+    21300270: Planta SPRITESHEET_135
+    21300272: Planta SPRITESHEET_136
+    21300274: Planta SPRITESHEET_137
+    21300276: Planta SPRITESHEET_138
+    21300278: Planta SPRITESHEET_139
+    21300280: Planta SPRITESHEET_140
+    21300282: Planta SPRITESHEET_141
+    21300284: Planta SPRITESHEET_142
+    21300286: Planta SPRITESHEET_143
+    21300288: Planta SPRITESHEET_144
+    21300290: Planta SPRITESHEET_145
+    21300292: Planta SPRITESHEET_146
+    21300294: Planta SPRITESHEET_147
+    21300296: Planta SPRITESHEET_148
+    21300298: Planta SPRITESHEET_149
+    21300300: Planta SPRITESHEET_150
+    21300302: Planta SPRITESHEET_151
+    21300304: Planta SPRITESHEET_152
+    21300306: Planta SPRITESHEET_153
+    21300308: Planta SPRITESHEET_154
+    21300310: Planta SPRITESHEET_155
+    21300312: Planta SPRITESHEET_156
+    21300314: Planta SPRITESHEET_157
+    21300316: Planta SPRITESHEET_158
+    21300318: Planta SPRITESHEET_159
+    21300320: Planta SPRITESHEET_160
+    21300322: Planta SPRITESHEET_161
+    21300324: Planta SPRITESHEET_162
+    21300326: Planta SPRITESHEET_163
+    21300328: Planta SPRITESHEET_164
+    21300330: Planta SPRITESHEET_165
+    21300332: Planta SPRITESHEET_166
+    21300334: Planta SPRITESHEET_167
+    21300336: Planta SPRITESHEET_168
+    21300338: Planta SPRITESHEET_169
+    21300340: Planta SPRITESHEET_170
+    21300342: Planta SPRITESHEET_171
+    21300344: Planta SPRITESHEET_172
+    21300346: Planta SPRITESHEET_173
+    21300348: Planta SPRITESHEET_174
+    21300350: Planta SPRITESHEET_175
+    21300352: Planta SPRITESHEET_176
+    21300354: Planta SPRITESHEET_177
+    21300356: Planta SPRITESHEET_178
+    21300358: Planta SPRITESHEET_179
+    21300360: Planta SPRITESHEET_180
+    21300362: Planta SPRITESHEET_181
+    21300364: Planta SPRITESHEET_182
+    21300366: Planta SPRITESHEET_183
+    21300368: Planta SPRITESHEET_184
+    21300370: Planta SPRITESHEET_185
+    21300372: Planta SPRITESHEET_186
+    21300374: Planta SPRITESHEET_187
+    21300376: Planta SPRITESHEET_188
+    21300378: Planta SPRITESHEET_189
+    21300380: Planta SPRITESHEET_190
+    21300382: Planta SPRITESHEET_191
+    21300384: Planta SPRITESHEET_192
+    21300386: Planta SPRITESHEET_193
+    21300388: Planta SPRITESHEET_194
+    21300390: Planta SPRITESHEET_195
+    21300392: Planta SPRITESHEET_196
+    21300394: Planta SPRITESHEET_197
+    21300396: Planta SPRITESHEET_198
+    21300398: Planta SPRITESHEET_199
+    21300400: Planta SPRITESHEET_200
+    21300402: Planta SPRITESHEET_201
+    21300404: Planta SPRITESHEET_202
+    21300406: Planta SPRITESHEET_203
+    21300408: Planta SPRITESHEET_204
+    21300410: Planta SPRITESHEET_205
+    21300412: Planta SPRITESHEET_206
+    21300414: Planta SPRITESHEET_207
+    21300416: Planta SPRITESHEET_208
+    21300418: Planta SPRITESHEET_209
+    21300420: Planta SPRITESHEET_210
+    21300422: Planta SPRITESHEET_211
+    21300424: Planta SPRITESHEET_212
+    21300426: Planta SPRITESHEET_213
+    21300428: Planta SPRITESHEET_214
+    21300430: Planta SPRITESHEET_215
+    21300432: Planta SPRITESHEET_216
+    21300434: Planta SPRITESHEET_217
+    21300436: Planta SPRITESHEET_218
+    21300438: Planta SPRITESHEET_219
+    21300440: Planta SPRITESHEET_220
+    21300442: Planta SPRITESHEET_221
+    21300444: Planta SPRITESHEET_222
+    21300446: Planta SPRITESHEET_223
+    21300448: Planta SPRITESHEET_224
+    21300450: Planta SPRITESHEET_225
+    21300452: Planta SPRITESHEET_226
+    21300454: Planta SPRITESHEET_227
+    21300456: Planta SPRITESHEET_228
+    21300458: Planta SPRITESHEET_229
+    21300460: Planta SPRITESHEET_230
+    21300462: Planta SPRITESHEET_231
+    21300464: Planta SPRITESHEET_232
+    21300466: Planta SPRITESHEET_233
+    21300468: Planta SPRITESHEET_234
+    21300470: Planta SPRITESHEET_235
+    21300472: Planta SPRITESHEET_236
+    21300474: Planta SPRITESHEET_237
+    21300476: Planta SPRITESHEET_238
+    21300478: Planta SPRITESHEET_239
+    21300480: Planta SPRITESHEET_240
+    21300482: Planta SPRITESHEET_241
+    21300484: Planta SPRITESHEET_242
+    21300486: Planta SPRITESHEET_243
+    21300488: Planta SPRITESHEET_244
+    21300490: Planta SPRITESHEET_245
+    21300492: Planta SPRITESHEET_246
+    21300494: Planta SPRITESHEET_247
+    21300496: Planta SPRITESHEET_248
+    21300498: Planta SPRITESHEET_249
+    21300500: Planta SPRITESHEET_250
+    21300502: Planta SPRITESHEET_251
+    21300504: Planta SPRITESHEET_252
+    21300506: Planta SPRITESHEET_253
+    21300508: Planta SPRITESHEET_254
+    21300510: Planta SPRITESHEET_255
+    21300512: Planta SPRITESHEET_256
+    21300514: Planta SPRITESHEET_257
+    21300516: Planta SPRITESHEET_258
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 855
+        width: 645
+        height: 1113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b44963f79de8cb4dbdf7e02c658574a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_1
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1925
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7591431c9773c4da4dc6d44c24e1cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 758
+        width: 649
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1801a2883fdb8c74385555d65a4aca90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1925
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c042beed94bcf549a7a0e04105682b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_4
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 657
+        width: 645
+        height: 1311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f7d20b346ca124ba6d603c45ac142a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_5
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 546
+        width: 645
+        height: 1422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533ddccf303c1ae4a83773bdfb4af3e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_6
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 1925
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eec8c89297b55f47964937af2706c27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_7
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 413
+        width: 644
+        height: 1555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6e3bbd07960ba43974f035b560f393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_8
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 275
+        width: 644
+        height: 1693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd26ad131c479247884ae589ea0361d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_9
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 192
+        width: 649
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af34653e6fe85045a9a1294d6c96029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_10
+      rect:
+        serializedVersion: 2
+        x: 5930
+        y: 1925
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edeb1f0ded1fa441ac975dffd56a31f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_11
+      rect:
+        serializedVersion: 2
+        x: 6088
+        y: 49
+        width: 645
+        height: 1919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be355a9ea7390a24785a9f2fc1973067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_12
+      rect:
+        serializedVersion: 2
+        x: 6819
+        y: 1925
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acb0677d12aa834eb51f92849d1f222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_13
+      rect:
+        serializedVersion: 2
+        x: 7050
+        y: 192
+        width: 646
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cd56f1c744a9e41a68bdf57040406a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_14
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 1925
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f64f947ea58fe54b8d93a70d729e045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_15
+      rect:
+        serializedVersion: 2
+        x: 7869
+        y: 275
+        width: 644
+        height: 1693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2fdfb6759e3fe4a923603c63bccea0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_16
+      rect:
+        serializedVersion: 2
+        x: 8596
+        y: 1925
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8560cc031e76ab046981dcc21f3d03c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_17
+      rect:
+        serializedVersion: 2
+        x: 8829
+        y: 413
+        width: 645
+        height: 1555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075860e19ef076f49a2b43a5eb695282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_18
+      rect:
+        serializedVersion: 2
+        x: 9680
+        y: 546
+        width: 648
+        height: 1422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1a172cc05dda940b0239e9095a438b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_19
+      rect:
+        serializedVersion: 2
+        x: 10411
+        y: 1925
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e966e0f817adc04ea1c3c3c97ddee94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_20
+      rect:
+        serializedVersion: 2
+        x: 10484
+        y: 655
+        width: 645
+        height: 1313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e84fd237e22cd348b051cbba29c42b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_21
+      rect:
+        serializedVersion: 2
+        x: 11211
+        y: 1925
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5297b356fb7d00743b5a047678cb19eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_22
+      rect:
+        serializedVersion: 2
+        x: 11304
+        y: 758
+        width: 646
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1c8a6e2ff09b64c92703db7b65c2e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_23
+      rect:
+        serializedVersion: 2
+        x: 12148
+        y: 855
+        width: 646
+        height: 1113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cb95ced968d9042b3c5a3ef5982935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_24
+      rect:
+        serializedVersion: 2
+        x: 12875
+        y: 1925
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffdf888f1681074e8a9f24c084ddeb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1679
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d02e7eb60a40c4a815715793d880d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_26
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1679
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cacfaa622279743b4acb7069ebc9d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_27
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1679
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e367afe1adf8b438f8055eaf37a895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_28
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 1679
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917e2cf2424a51e4288e2963270a9856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_29
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 1679
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a55aaa18b09464b8a8b1e69847eeed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_30
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 1679
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877adb0b2a066814c8ff3c79be4a9184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_31
+      rect:
+        serializedVersion: 2
+        x: 6970
+        y: 1679
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce834c560265c440a7817e51196d19a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_32
+      rect:
+        serializedVersion: 2
+        x: 7789
+        y: 1679
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d547fdacd60295f4eaee8e365f9e65c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_33
+      rect:
+        serializedVersion: 2
+        x: 9604
+        y: 1679
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcf12a3cc13b784693ff92c52831a3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_34
+      rect:
+        serializedVersion: 2
+        x: 10405
+        y: 1679
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f769750fe48e5c14c8f7f36f54fea2a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_35
+      rect:
+        serializedVersion: 2
+        x: 12068
+        y: 1679
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd6c7f0040158248a91063ce16bc805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_36
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1546
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0060499e1d7080849a57f53a8c27c5f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_37
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1553
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134b14efdc257e847a24ced622996fba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_38
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1552
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d5a6c6481bc154486e4129d9689956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_39
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 1546
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55da5737e348c184cb6fc5f83a925e5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_40
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 1552
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a003ed2a8e9a7b40bc1b75f3a9d5761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_41
+      rect:
+        serializedVersion: 2
+        x: 4292
+        y: 1552
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b10557623e16084e95b6ec4bfb1436b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_42
+      rect:
+        serializedVersion: 2
+        x: 5161
+        y: 1553
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02c7784a85a3504d84519782f72d916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_43
+      rect:
+        serializedVersion: 2
+        x: 6050
+        y: 1553
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc668fee68348a94aa08a5894dfca965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_44
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 1546
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f97e7731c78744181648d277bc3ade
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_45
+      rect:
+        serializedVersion: 2
+        x: 7827
+        y: 1546
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7331ff8db55fd534b865017e79053992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_46
+      rect:
+        serializedVersion: 2
+        x: 8785
+        y: 1552
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02fc027c5412e14691044260c46139d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_47
+      rect:
+        serializedVersion: 2
+        x: 9642
+        y: 1546
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba06fb363745974daaed784fa03d603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_48
+      rect:
+        serializedVersion: 2
+        x: 10442
+        y: 1546
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5ec165248e6e14db79b30b442923e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_49
+      rect:
+        serializedVersion: 2
+        x: 11262
+        y: 1546
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecaacb175f1e7d439ad293cfd8d4fa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_50
+      rect:
+        serializedVersion: 2
+        x: 12106
+        y: 1546
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e27b0422fba06469d2ecf2dbb46aaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_51
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 837
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f059a5b04c5f84496a0a6bcb4a920d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_52
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 884
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9e6acb680eeb24093cb4df84e09fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_53
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 878
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c49ed158853e3e43b5d79e8ba1266fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_54
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 877
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdba9f4d0e3861842957bbe70fb752af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_55
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 884
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f930aaf07b9936648ae31bdacd83d0ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_56
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 878
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895ebd8b42ea8d9469c446dab8c23a68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_57
+      rect:
+        serializedVersion: 2
+        x: 5073
+        y: 878
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd661f49d09e984cb7ec9db883e5dcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_58
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 877
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110607a8c234770479ad17d1c18f5335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_59
+      rect:
+        serializedVersion: 2
+        x: 6825
+        y: 878
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85054b175b716d5428c55dfc52ee0852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_60
+      rect:
+        serializedVersion: 2
+        x: 7789
+        y: 884
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a1ca1894f0d054f8d8272f7bcada33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_61
+      rect:
+        serializedVersion: 2
+        x: 8609
+        y: 878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c101c32b2c7dd14f8d053e46821b2a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_62
+      rect:
+        serializedVersion: 2
+        x: 9566
+        y: 878
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99ae2ca92b02df49b306ebf8922b5b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_63
+      rect:
+        serializedVersion: 2
+        x: 10423
+        y: 878
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbf75634252bfb4c875fc432b3f2449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_64
+      rect:
+        serializedVersion: 2
+        x: 11224
+        y: 884
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80be67d868e3f94b9d765afa4c57667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_65
+      rect:
+        serializedVersion: 2
+        x: 12043
+        y: 877
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a5929c2860154bb06343a9d408267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_66
+      rect:
+        serializedVersion: 2
+        x: 12667
+        y: 837
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0989bfa7afcd524992cc89f133a2ec7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_67
+      rect:
+        serializedVersion: 2
+        x: 12887
+        y: 884
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b0314ec6f30334fab53d0d2850c31c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_68
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 796
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418f03b15a758d241a00e9eb2bfc64f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_69
+      rect:
+        serializedVersion: 2
+        x: 12327
+        y: 795
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf84372a78ef5349b2ae7b45f87be50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_70
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 776
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b202b2829958b4081566df55d55a18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_71
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 726
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd853e4bdd96343a3c8c36f38cc080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_72
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 726
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1f0f9fd0b86bc4ab54ce3066ab6cb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_73
+      rect:
+        serializedVersion: 2
+        x: 11820
+        y: 726
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fd4146300d8e645b24e623b485195d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_74
+      rect:
+        serializedVersion: 2
+        x: 12333
+        y: 776
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80fa0c6dd258d64b9dc9c1537f76d4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_75
+      rect:
+        serializedVersion: 2
+        x: 12661
+        y: 726
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b501c313d365ec24583c9dcc9edaa5a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_76
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 631
+        width: 34
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21026e25d8fe8a241979aba8e9c5858d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_77
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 739
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eee1ede37f01324f86c037851436646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_78
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 631
+        width: 37
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ac8b9e60f2b594d8b2e3ad0e8c1de8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_79
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 739
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf1c2ab7eab6694bbc389960083b399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_80
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 631
+        width: 37
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d6300bc1a1fa04080a537e8dc2d60c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_81
+      rect:
+        serializedVersion: 2
+        x: 10657
+        y: 631
+        width: 38
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdea506b3809bc44962db8fe5861b18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_82
+      rect:
+        serializedVersion: 2
+        x: 11480
+        y: 631
+        width: 35
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd3d401f892f474998520d6e011e271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_83
+      rect:
+        serializedVersion: 2
+        x: 11791
+        y: 739
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d93c4ef1f8043a41a510da2647affdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_84
+      rect:
+        serializedVersion: 2
+        x: 12320
+        y: 631
+        width: 39
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f03df4e4523c204ca5774f25107c6af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_85
+      rect:
+        serializedVersion: 2
+        x: 12635
+        y: 739
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59df5434a526954c912296001fa4efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_86
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 726
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3af9c99902caae43be78c42c8efd16d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_87
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 726
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a404fa71dcb6884b9dcf57c93103eb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_88
+      rect:
+        serializedVersion: 2
+        x: 11759
+        y: 726
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df50455d8bb38a746be3b07e4c8f90e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_89
+      rect:
+        serializedVersion: 2
+        x: 12604
+        y: 726
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f8d84eb4ab9574798a7c547219b07e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_90
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 682
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4d6039605b7ae47bfc52a518bd9db1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_91
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 682
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13094bd5f5b87e5499934e2242355bf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_92
+      rect:
+        serializedVersion: 2
+        x: 11778
+        y: 682
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94587e20dc6938f47aae716d198cdb7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_93
+      rect:
+        serializedVersion: 2
+        x: 12623
+        y: 682
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7010f0c276a77604f975a279599543c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_94
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 619
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05f4bcb7142a7e44b90075faf23e847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_95
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 625
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce77d4336f119479f496b53afc79b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_96
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 619
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aeca0223ad27547bfe1065a9f63703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_97
+      rect:
+        serializedVersion: 2
+        x: 10982
+        y: 619
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23f013c8feb9f94cbc861eef4e3f1ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_98
+      rect:
+        serializedVersion: 2
+        x: 11802
+        y: 619
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fdd584e290ea94296113c0642b5883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_99
+      rect:
+        serializedVersion: 2
+        x: 12646
+        y: 619
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c3973a5b0d2cb4c97b8fe8e310cb2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_100
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 499
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd38ea56fefdd46813e981ff083bfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 534
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f76c9648b271d40a026468d03f2fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_102
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 499
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc0dc0605e5b3e40adfdb8be2b4269a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_103
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 530
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df9841ec3e933144a9f4a7ecae517f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_104
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 499
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6f40743e80290479712bfb95551f96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_105
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 531
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31615916a4580c4aacad11c1d649580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_106
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 499
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee3430e64a5088469e257bc57ff0d56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_107
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 534
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327aeec8f0fd9ed449b43d1141442203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_108
+      rect:
+        serializedVersion: 2
+        x: 9869
+        y: 499
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfac0001e7167c64a9c39ab50079abe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_109
+      rect:
+        serializedVersion: 2
+        x: 9938
+        y: 530
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4acc4daf112064f86c24f70e974f86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_110
+      rect:
+        serializedVersion: 2
+        x: 10688
+        y: 518
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71f03b93e8868c4493dcdde3f754058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_111
+      rect:
+        serializedVersion: 2
+        x: 10742
+        y: 530
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8367420a638284aa4d6d0567c459c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_112
+      rect:
+        serializedVersion: 2
+        x: 11495
+        y: 499
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070153029c522aa4cb2d8ef12f74c0c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_113
+      rect:
+        serializedVersion: 2
+        x: 11561
+        y: 534
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98fee89e3b764a4598db0f649d11e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_114
+      rect:
+        serializedVersion: 2
+        x: 12333
+        y: 499
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51dd77f32747254ebc1ee292a5260f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_115
+      rect:
+        serializedVersion: 2
+        x: 12406
+        y: 530
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13db4e4a36f78e4408d0433e5c27d5a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_116
+      rect:
+        serializedVersion: 2
+        x: 10669
+        y: 499
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41df352f06195a045b18d7322ce746d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_117
+      rect:
+        serializedVersion: 2
+        x: 10695
+        y: 505
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6483d3de78d59be408f02ecc69f72518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_118
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 493
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59ed605f4ae1dc44882ec94348a0f52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_119
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 493
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9216a43e747934f4ba410b1a233df5d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_120
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 493
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc32d4652112caf4f92a364f2b2a070e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_121
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 493
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077aeaeaa7eabb14392429968b752f97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_122
+      rect:
+        serializedVersion: 2
+        x: 9913
+        y: 493
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003a73a453f23934fb8a17ca8241d4a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_123
+      rect:
+        serializedVersion: 2
+        x: 10713
+        y: 493
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7c49da867f72b48819c77bacec1efd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_124
+      rect:
+        serializedVersion: 2
+        x: 11533
+        y: 493
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d33a97be620ac940934728ccf4a78cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_125
+      rect:
+        serializedVersion: 2
+        x: 12377
+        y: 493
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da55c1293f9b8648a3351658cf398ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_126
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 392
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bf4e5434282b7469c0b249bd7d6111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_127
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 392
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ca4b35c87341647b7157420bee023e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_128
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 392
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa86062db58f9784d95a7cc81f589d06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_129
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 392
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8aaa054bca4be4681524f1740a9248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_130
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 392
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398b326f236bfe041a20b24ed094de9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_131
+      rect:
+        serializedVersion: 2
+        x: 8999
+        y: 392
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6fc9f16e177734a9f1a8749b20fb0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_132
+      rect:
+        serializedVersion: 2
+        x: 9850
+        y: 392
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d332ec358ae07f54d8e7a85934e99bca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_133
+      rect:
+        serializedVersion: 2
+        x: 10650
+        y: 392
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930277535f5439b40910842502c41872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_134
+      rect:
+        serializedVersion: 2
+        x: 11470
+        y: 392
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7606b8f7508ba4386e8561ae8763fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_135
+      rect:
+        serializedVersion: 2
+        x: 12314
+        y: 392
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd346b1c2afa8d546802b9b33c5d2274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_136
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 348
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f65fd17d546844bb2edde88294f157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_137
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 347
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ccaa716a81f7248a2261388e54bf59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_138
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 347
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecece2591cb5a74bbd6adae33dbe336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_139
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 347
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13716475f2d639c409744baabccaf207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_140
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 348
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297d27339c3df434a8feee77f9c4ae30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_141
+      rect:
+        serializedVersion: 2
+        x: 8987
+        y: 348
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86edf061e1350d64cac1d35ea8cea907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_142
+      rect:
+        serializedVersion: 2
+        x: 9844
+        y: 347
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079fa7b7ed444064fb06ec15f1785198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_143
+      rect:
+        serializedVersion: 2
+        x: 10644
+        y: 347
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545d3480d8cc0724994d6ec45822d6b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_144
+      rect:
+        serializedVersion: 2
+        x: 11463
+        y: 347
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e85bff75fecf3a4ab5651467972788a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_145
+      rect:
+        serializedVersion: 2
+        x: 12308
+        y: 348
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f919f52eafe49534c8ef809b673a57f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_146
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 215
+        width: 31
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ce79cef19f174abcddd8709b7cdc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_147
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 220
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc066dc1b92dd344d86484d853fcc187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_148
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 244
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf9b917f77a0f94d82d781d9df72341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_149
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 209
+        width: 27
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a6c8f9bbf18fd4cb5ba04d8e9a96e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_150
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 219
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df86c5b2536e0844ead08e5386efa7d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_151
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 244
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64017b48f92e0094b983f698ea329ff2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_152
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 215
+        width: 33
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07f02aaad3551040ae60aaf4a708541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_153
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 219
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7263e2a7ab8c54e4889569f07ba63e69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_154
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 244
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4586c155082792b4ca405b52a37ff1d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_155
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 209
+        width: 31
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e41a6369afe2804c9424b15b09c2ce3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_156
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 219
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e8e1a09a528134dbe3a26432b0063a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_157
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 244
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4d7ed8e699652468759fb62272fcbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_158
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 215
+        width: 32
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d96d1a6080c26408fbe0ec5ab8a355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_159
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 219
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f2a766544881b4fb55e6ab1c97dccb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_160
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 244
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6169d7b90bf15704a90c49d41cbff71f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_161
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 215
+        width: 32
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eef59099795b8046a23758661829575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_162
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 219
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d846c68af040044bbf811dec4224af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_163
+      rect:
+        serializedVersion: 2
+        x: 4711
+        y: 232
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06eaddda696efd47b1b5339f4110941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_164
+      rect:
+        serializedVersion: 2
+        x: 7972
+        y: 209
+        width: 31
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4692561339586324dbcbc5c4c8e386f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_165
+      rect:
+        serializedVersion: 2
+        x: 8048
+        y: 219
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86444734b00dbba418274f672ca35ed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_166
+      rect:
+        serializedVersion: 2
+        x: 8241
+        y: 231
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27d5eec329cb3841997cbf4147bfad0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_167
+      rect:
+        serializedVersion: 2
+        x: 8930
+        y: 215
+        width: 32
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6869262456a2d6546a3cbbfb1313be96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_168
+      rect:
+        serializedVersion: 2
+        x: 9010
+        y: 219
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5767b82140c2d46a14c6ca7d8bbd9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_169
+      rect:
+        serializedVersion: 2
+        x: 9205
+        y: 244
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f421f52d2d9d1504c94f4d82a6b28c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_170
+      rect:
+        serializedVersion: 2
+        x: 9787
+        y: 209
+        width: 26
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82135ab528685ae448a91cf873750967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_171
+      rect:
+        serializedVersion: 2
+        x: 9863
+        y: 219
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb788e9574c7b034cadaf2d224de7cf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_172
+      rect:
+        serializedVersion: 2
+        x: 10058
+        y: 244
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aa90f44513365458cdc96c606a8492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_173
+      rect:
+        serializedVersion: 2
+        x: 10587
+        y: 209
+        width: 31
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c50985f190d041a6ac9a4f8de7827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_174
+      rect:
+        serializedVersion: 2
+        x: 10666
+        y: 219
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66409a8e561ffbe4c971d7a79c476464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_175
+      rect:
+        serializedVersion: 2
+        x: 10862
+        y: 244
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b99317c553b646a930ab0e0e1fe5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_176
+      rect:
+        serializedVersion: 2
+        x: 11407
+        y: 215
+        width: 30
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac57e7e619885a14bb663801f8ecc100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_177
+      rect:
+        serializedVersion: 2
+        x: 11486
+        y: 219
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59d6bf10c1f0b4483433c526d82528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_178
+      rect:
+        serializedVersion: 2
+        x: 11681
+        y: 244
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106758f514a76994f8038908f6216ebf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_179
+      rect:
+        serializedVersion: 2
+        x: 12251
+        y: 209
+        width: 31
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f241f20648a7847a8f4315a2f989d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_180
+      rect:
+        serializedVersion: 2
+        x: 12330
+        y: 219
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b60dd77a362dbc4794438eab28e360e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_181
+      rect:
+        serializedVersion: 2
+        x: 12526
+        y: 244
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95cb557620120543b91273d05219899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_182
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 224
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6285df034d6abea41a82bded8e216654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_183
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 224
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aabede2115182449cb66f9975f60e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_184
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 224
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c399e3ae2172841bb3529396e0ab3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_185
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 224
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfdbf9c76c058f478ced38f88673173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_186
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 224
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087758fadcc3a324ba281ddfaa075da6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_187
+      rect:
+        serializedVersion: 2
+        x: 4654
+        y: 224
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4552c6811c81748a73636d3022b11c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_188
+      rect:
+        serializedVersion: 2
+        x: 8185
+        y: 224
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0430470c7c6f5fb4d8ddd1048e44e549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_189
+      rect:
+        serializedVersion: 2
+        x: 9147
+        y: 224
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292df08d9722f1a4982e09512a0cdec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_190
+      rect:
+        serializedVersion: 2
+        x: 9999
+        y: 224
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594d38143a379ad44b480ffa4169bd35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_191
+      rect:
+        serializedVersion: 2
+        x: 10805
+        y: 224
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300ec081f1c4e1b478f2a544dcd8b821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_192
+      rect:
+        serializedVersion: 2
+        x: 11624
+        y: 224
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b6c45ba3bd484395c834f4bcc944d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_193
+      rect:
+        serializedVersion: 2
+        x: 12468
+        y: 224
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313d558089f569448317124eea55b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_194
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 108
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85e477586c4cae4597a8f1542375bf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_195
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 120
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32589f2a4d966794ea86b8602b356f85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_196
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 108
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d410f64b1ead454fa0f319f23d3b8e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_197
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 121
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c30c1806444e34c8265823bdf00051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_198
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 108
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f4e7f7ddfe2874885b9e0e9b5073cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_199
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 120
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785f9120cf163ec469d3c7b1f6a78672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_200
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 108
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ecffc150e95b34c88aa19408826e42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_201
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 120
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a55cdbe4d4d32489f1d69c7f79f7fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_202
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 114
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78bad6042ae09b42be3e92a5b96c2d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_203
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 120
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4452121dcb458429d5d55ceae0a7a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_204
+      rect:
+        serializedVersion: 2
+        x: 4468
+        y: 114
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae816a0c3af192f458b512b4491f9d21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_205
+      rect:
+        serializedVersion: 2
+        x: 4555
+        y: 171
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ceb8a29d0d46549b9880bb7eddd4f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_206
+      rect:
+        serializedVersion: 2
+        x: 4790
+        y: 120
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874fb0b0aad0a924b95ade64029fc887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_207
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 108
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d402069194aa2634b88ee2f26436840d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_208
+      rect:
+        serializedVersion: 2
+        x: 5420
+        y: 171
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb1252d982f601418c07058449c3c2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_209
+      rect:
+        serializedVersion: 2
+        x: 5659
+        y: 120
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e2b60d425c29f44976d833857ff332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_210
+      rect:
+        serializedVersion: 2
+        x: 7184
+        y: 108
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94504adfc7a6aa04b9ac7f5968bea265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_211
+      rect:
+        serializedVersion: 2
+        x: 7270
+        y: 171
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b693728c9955a4795c6db519444a10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_212
+      rect:
+        serializedVersion: 2
+        x: 7506
+        y: 120
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6039c0ae850791e4fbf8a1d532a1f49b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_213
+      rect:
+        serializedVersion: 2
+        x: 8002
+        y: 108
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c849b4cb750f54e9695b8908716e08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_214
+      rect:
+        serializedVersion: 2
+        x: 8089
+        y: 171
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34059c18703bcf4894a0f4ec82756b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_215
+      rect:
+        serializedVersion: 2
+        x: 8325
+        y: 120
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c8b50fa8d40764e901360e9cac51a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_216
+      rect:
+        serializedVersion: 2
+        x: 8961
+        y: 114
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403abcbbe6106ae42b9d63b57e23c696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_217
+      rect:
+        serializedVersion: 2
+        x: 9283
+        y: 120
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305aa09cc8cf642b196735f724e70c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_218
+      rect:
+        serializedVersion: 2
+        x: 9812
+        y: 108
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b52225173445584fab514d47cc1b8e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_219
+      rect:
+        serializedVersion: 2
+        x: 10140
+        y: 120
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382443430318a9f4d80c1506f4ce8f4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_220
+      rect:
+        serializedVersion: 2
+        x: 10619
+        y: 108
+        width: 18
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bec83c64677b94f986fa0f20e02d1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_221
+      rect:
+        serializedVersion: 2
+        x: 10940
+        y: 120
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f074f7086857f542bed43a453621ba9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_222
+      rect:
+        serializedVersion: 2
+        x: 11438
+        y: 114
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f5331af7860464fa0bd2bf92e67293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_223
+      rect:
+        serializedVersion: 2
+        x: 11760
+        y: 120
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a12d1858b68fa41885e258aa35d061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_224
+      rect:
+        serializedVersion: 2
+        x: 12282
+        y: 108
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead3a4b6458096444b912715c9c08aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_225
+      rect:
+        serializedVersion: 2
+        x: 12604
+        y: 120
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772b3179097d9e54d9180facc9209e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_226
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 144
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8eba9532c7b1c42b66a2d35b1bcce3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_227
+      rect:
+        serializedVersion: 2
+        x: 5634
+        y: 145
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b2fec96b2b66e4e8c6d9402d885469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_228
+      rect:
+        serializedVersion: 2
+        x: 7481
+        y: 145
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a5b620fbb41424f87b76a661ac70ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_229
+      rect:
+        serializedVersion: 2
+        x: 8300
+        y: 145
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1656d102d01d04eb7a5d45771c2099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_230
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbf8addc0802b644aae7a0ec4936058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_231
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 51
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d713fae92218c4f920146c07955461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_232
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabcf0fd87fd84f419d52d4eb74bd622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_233
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636871583eaf30147a55e01c044d127c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_234
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a05adc621c7a149bd55416d7f62aef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_235
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba85977326729948a3b1b625d39f944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_236
+      rect:
+        serializedVersion: 2
+        x: 5363
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41efbc4e0411c9d49bed9157f3adeb1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_237
+      rect:
+        serializedVersion: 2
+        x: 7216
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424824e4453834a4290a8940015136e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_238
+      rect:
+        serializedVersion: 2
+        x: 8035
+        y: 51
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb085b43e1635f64aae807cbff139345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_239
+      rect:
+        serializedVersion: 2
+        x: 8993
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dbd368ed4d0394b9873f1dceca0485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_240
+      rect:
+        serializedVersion: 2
+        x: 9850
+        y: 51
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a03746c7681fa4cb2154d1565f4491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_241
+      rect:
+        serializedVersion: 2
+        x: 10650
+        y: 51
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff0aabab30c1df43a87ae8bcbf38e27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_242
+      rect:
+        serializedVersion: 2
+        x: 11470
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a8e709af68a5c41af3d7e6b5b9103b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_243
+      rect:
+        serializedVersion: 2
+        x: 12314
+        y: 51
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c6623f436dac74bba06a633f196b01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_244
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 38
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6977fa3993cd2c24085cbc8ec57469e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_245
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 32
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9e7cb8182c5db4fb1b57b9d7aaef36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_246
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 38
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf21ef05a43f554aa14b4211328cb0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_247
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 32
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e870e32fdb13b14ba8b587782682de3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_248
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 38
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744242fb31e90314288a94762b9a59c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_249
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 38
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f2a8c3ab924a841860db0b0e14037c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_250
+      rect:
+        serializedVersion: 2
+        x: 5521
+        y: 32
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4606a05e316d294297c89eff8e94c09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_251
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 32
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd532da5d81e3b647849675cec6afa93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_252
+      rect:
+        serializedVersion: 2
+        x: 7373
+        y: 32
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d9cbe88e00d6845a4a83557a3474b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_253
+      rect:
+        serializedVersion: 2
+        x: 8187
+        y: 32
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e57e37072baec4e8f16365648d451f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_254
+      rect:
+        serializedVersion: 2
+        x: 9151
+        y: 38
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5fa84366b384c46a442470da4e4825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_255
+      rect:
+        serializedVersion: 2
+        x: 10002
+        y: 32
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51898b16b9666594385c41e30df83a86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_256
+      rect:
+        serializedVersion: 2
+        x: 10808
+        y: 32
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3d2832e96729848a4e5e14d4e302b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_257
+      rect:
+        serializedVersion: 2
+        x: 11627
+        y: 38
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d043cf5ddd652d43bcf8e9bb320559e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planta SPRITESHEET_258
+      rect:
+        serializedVersion: 2
+        x: 12472
+        y: 32
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf6a84c832f0964ea8d8d515fe44911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4f0de018106eb9f4789b1e1a39106a00
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
