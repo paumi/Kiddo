@@ -9,6 +9,7 @@ TagManager:
   - PlatformMovil
   - hud
   - camera
+  - cambio
   layers:
   - Default
   - TransparentFX

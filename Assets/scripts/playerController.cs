@@ -65,7 +65,7 @@ public class playerController : MonoBehaviour {
         moveInputH = Input.GetAxisRaw("Horizontal");
         moveInputV = Input.GetAxis("Vertical");
 
-        Debug.Log(isDead);
+        //Debug.Log(isDead);
         if (!isDead)
         {
             if (!(moveInputV < 0))
@@ -77,7 +77,7 @@ public class playerController : MonoBehaviour {
                     {
                         rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
                         stamina -= Time.deltaTime;
-                        Debug.Log(stamina);
+                        //Debug.Log(stamina);
                         animator.SetBool("running", true);
                         if (stamina <= 0)
                         {
