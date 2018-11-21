@@ -9,4 +9,9 @@ public class Escena : MonoBehaviour {
 
         SceneManager.LoadScene(1);
     }
+
+    public void VolverAlMenu(string nombre_escena){
+
+        SceneManager.LoadScene(nombre_escena, LoadSceneMode.Single);
+    }
 }

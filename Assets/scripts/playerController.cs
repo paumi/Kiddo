@@ -135,7 +135,7 @@ public class playerController : MonoBehaviour {
     private void Update()
     {
         //se maneja el salto 
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")))
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")) && !ShowMenuPause.juegoEnPausa)
         {
             jumpRequest = true;
         }
