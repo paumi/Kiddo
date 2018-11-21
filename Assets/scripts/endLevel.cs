@@ -36,4 +36,5 @@ public class endLevel : MonoBehaviour {
         changeScreen.GetComponent<changeLevelScreen>().available = false;
         Debug.Log("Ha salido");
     }
+
 }

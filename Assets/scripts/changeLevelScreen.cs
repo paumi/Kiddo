@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class changeLevelScreen : MonoBehaviour {
 
@@ -29,8 +30,19 @@ public class changeLevelScreen : MonoBehaviour {
 
     public void HideScreen()
     {
-        changeLevel.SetActive(false);
         paused = false;
         Time.timeScale = 1f;
+        changeLevel.SetActive(false);
+    }
+
+
+    public void onClick()
+    {
+        SceneManager.LoadScene("Patio");
+    }
+
+    public void OnClickNo()
+    {
+        HideScreen();
     }
 }
