@@ -5,13 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Escena : MonoBehaviour {
 
-    public void cambiarescena(string nombre_escena){
+    /*public void cambiarescena(string nombre_escena){
 
         SceneManager.LoadScene(1);
-    }
+    }*/
 
-    public void VolverAlMenu(string nombre_escena){
+    public void CambiarEscena(string nombre_escena){
 
+        //"Reiniciar" el juego
+        ShowMenuPause.juegoEnPausa = false;
+        Time.timeScale = 1f;
+
+        //Cargar escena
         SceneManager.LoadScene(nombre_escena, LoadSceneMode.Single);
     }
 }
