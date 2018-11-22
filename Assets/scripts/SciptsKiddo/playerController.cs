@@ -215,10 +215,17 @@ public class playerController : MonoBehaviour {
 
      void OnCollisionEnter2D(Collision2D col)
     {
+        
         if (col.gameObject.tag == "PlatformMovil")
         {
             nrbAmparo.velocity = new Vector3(0f, 0f, 0f);
             transform.parent = col.transform;
+        }
+
+        if (col.gameObject.tag == "Harmfull")
+        {
+            Debug.Log(1);
+            gameObject.GetComponent<atributes>().life--;
         }
     }
 
