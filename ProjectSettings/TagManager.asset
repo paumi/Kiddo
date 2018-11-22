@@ -11,6 +11,7 @@ TagManager:
   - camera
   - cambio
   - changeScreen
+  - text
   layers:
   - Default
   - TransparentFX

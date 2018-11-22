@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class eventoLava : MonoBehaviour {
 
-    public GameObject wallLeft, wallRight;
+    float tiempo;
+    public GameObject wallLeft, wallRight, colliderLava, ground;
     public GameObject msg;
     bool caged = false;
 	// Use this for initialization
@@ -14,9 +15,21 @@ public class eventoLava : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
         if (caged)
         {
-            Instantiate(msg);
+            GameObject msgDestroy = GameObject.FindGameObjectWithTag("text");
+            ground.GetComponent<moveGround>().start = true;
+
+            if (Input.GetKeyDown("w"))
+            {
+                Destroy(msgDestroy);
+                WallController(false);
+                caged = false;
+                colliderLava.SetActive(false);
+
+            }
+            
         }
 	}
 
@@ -24,6 +37,7 @@ public class eventoLava : MonoBehaviour {
     {
         WallController(true);
         caged = true;
+        Instantiate(msg);
     }
 
     private void WallController(bool active)
