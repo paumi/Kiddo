@@ -16,8 +16,8 @@ public class atributes : MonoBehaviour {
         spawn = GameObject.FindGameObjectWithTag("Spawn");
         dying = false;
 
-        animationTime = 0.5f;
-        maxAnimaionTime = 0.5f;
+        animationTime = 1f;
+        maxAnimaionTime = 1f;
 
         animator = gameObject.GetComponent<Animator>();
 

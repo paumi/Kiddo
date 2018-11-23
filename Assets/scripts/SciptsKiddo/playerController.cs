@@ -62,7 +62,8 @@ public class playerController : MonoBehaviour {
         
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
-        moveInputH = Input.GetAxisRaw("Horizontal");
+        moveInputH = Input.GetAxis("Horizontal");
+        Debug.Log(moveInputH);
         moveInputV = Input.GetAxis("Vertical");
 
         //Debug.Log(isDead);
@@ -71,28 +72,40 @@ public class playerController : MonoBehaviour {
             if (!(moveInputV < 0))
             {
                 //Movimiento en el eje horizontal
-                if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("sprint")) && sprintCharged)
-                {
-                    if (moveInputH != 0)
-                    {
-                        rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
-                        stamina -= Time.deltaTime;
-                        //Debug.Log(stamina);
-                        animator.SetBool("running", true);
-                        if (stamina <= 0)
-                        {
-                            sprintCharged = false;
-                        }
-                    }
-                    else { animator.SetBool("running", false); }
-                }
 
+                if (moveInputH != 0)
+                {
+                    if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("sprint")) && sprintCharged)
+                    {
+
+                        
+                         rb.velocity = new Vector2(moveInputH * sprint, rb.velocity.y);
+                         stamina -= Time.deltaTime;
+                         //Debug.Log(stamina);
+                         animator.SetBool("running", true);
+                         if (stamina <= 0)
+                         {
+                             sprintCharged = false;
+                         }
+                        
+                     
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
+                        animator.SetBool("running", false);
+                        chargeStamina();
+
+                    }
+                }
                 else
                 {
                     animator.SetBool("running", false);
-                    rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
                     chargeStamina();
+                    rb.velocity = new Vector2(0, rb.velocity.y);
                 }
+
+
 
 
 
@@ -104,6 +117,7 @@ public class playerController : MonoBehaviour {
                 }
                 else if (moveInputH < 0 && facingRight == true) { Flip(); }
             }
+            else { rb.velocity = new Vector2( 0, rb.velocity.y); }
 
             if (jumpRequest)
             {
@@ -123,6 +137,7 @@ public class playerController : MonoBehaviour {
                 jumpRequest = false;
             }
         }
+        else { rb.velocity = new Vector2(0, rb.velocity.y); }
 
         //cambiamos la variable Speed (ver Animator) para cambiar la animación
 
