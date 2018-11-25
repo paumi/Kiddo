@@ -58,7 +58,7 @@ public class atributes : MonoBehaviour {
 
     bool CheckLife()
     {
-        if (life == 0)
+        if (life <= 0)
         {
             dying = true;
             animator.SetBool("Dead", true);

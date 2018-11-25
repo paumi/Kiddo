@@ -10,6 +10,7 @@ public class playerController : MonoBehaviour {
     public float stamina;
     private float moveInputH;
     private float moveInputV;
+    private int i;
 
     public BoxCollider2D upCollider;
 
@@ -244,7 +245,8 @@ public class playerController : MonoBehaviour {
 
         if (col.gameObject.tag == "Harmfull")
         {
-            Debug.Log(1);
+            Debug.Log(i);
+            i++;
             gameObject.GetComponent<atributes>().life--;
         }
     }
