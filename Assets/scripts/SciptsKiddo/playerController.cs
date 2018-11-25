@@ -11,6 +11,8 @@ public class playerController : MonoBehaviour {
     private float moveInputH;
     private float moveInputV;
 
+    public BoxCollider2D upCollider;
+
     private bool isDying;
 
     private bool facingRight;
@@ -72,7 +74,7 @@ public class playerController : MonoBehaviour {
             if (!(moveInputV < 0))
             {
                 //Movimiento en el eje horizontal
-
+                upCollider.enabled = true;
                 if (moveInputH != 0)
                 {
                     if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("sprint")) && sprintCharged)
@@ -103,6 +105,7 @@ public class playerController : MonoBehaviour {
                     animator.SetBool("running", false);
                     chargeStamina();
                     rb.velocity = new Vector2(0, rb.velocity.y);
+                    
                 }
 
 
@@ -117,7 +120,11 @@ public class playerController : MonoBehaviour {
                 }
                 else if (moveInputH < 0 && facingRight == true) { Flip(); }
             }
-            else { rb.velocity = new Vector2( 0, rb.velocity.y); }
+            else
+            {
+                rb.velocity = new Vector2( 0, rb.velocity.y);
+                upCollider.enabled = false;
+            }
 
             if (jumpRequest)
             {
@@ -189,9 +196,7 @@ public class playerController : MonoBehaviour {
     {
         facingRight = !facingRight;
 
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
+        transform.Rotate(0f, 180f, 0f);
     }
 
     void chargeStamina()

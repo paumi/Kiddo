@@ -7,12 +7,20 @@ public class Enemy_Controller : MonoBehaviour {
     public float maxSpeed = 1f;
     public float speed = 1f;
     public Animator animator;
+    public bool facingLeft;
 
     private Rigidbody2D rb2d;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        facingLeft = false;
+
+        if (!facingLeft)
+        {
+            transform.Rotate(0f, 180f, 0f);
+        }
+        
     }
 
     void FixedUpdate()
@@ -28,17 +36,19 @@ public class Enemy_Controller : MonoBehaviour {
 
         }
 
-        if (speed > 0) {
-
-            transform.localScale = new Vector3(2.356135f, 2.286112f, 1.354422f);
-
+        if (speed > 0 && facingLeft == false)
+        {
+            flip();
         }
-        else if (speed < 0) {
-            transform.localScale = new Vector3(-2.356135f, 2.286112f, 1.354422f);
-
-        }
+        else if (speed < 0 && facingLeft == true) { flip(); }
 
     }
 
+    void flip()
+    {
+        facingLeft = !facingLeft;
+
+        transform.Rotate(0f, 180f, 0f);
+    }
 
 }
