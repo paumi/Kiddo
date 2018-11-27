@@ -7,6 +7,7 @@ public class ShowMenuPause : MonoBehaviour {
     public static bool juegoEnPausa;
 
     public GameObject menuPausa;   
+    public GameObject oscuridad;   
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +28,7 @@ public class ShowMenuPause : MonoBehaviour {
     private void ActivarMenu()
     {
         menuPausa.SetActive(true);
+        oscuridad.SetActive(true);
         juegoEnPausa = true;
         Time.timeScale = 0f;
     }
@@ -34,6 +36,7 @@ public class ShowMenuPause : MonoBehaviour {
     public void DesactivarMenu()
     {
         menuPausa.SetActive(false);
+        oscuridad.SetActive(false);
         juegoEnPausa = false;
         Time.timeScale = 1f;
     }
