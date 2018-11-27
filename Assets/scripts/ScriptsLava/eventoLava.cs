@@ -6,7 +6,7 @@ public class eventoLava : MonoBehaviour {
 
     float tiempo;
     public GameObject wallLeft, wallRight, colliderLava, ground;
-    public GameObject msg;
+    public GameObject msg , player;
     bool caged = false;
 	// Use this for initialization
 	void Start () {
@@ -24,7 +24,8 @@ public class eventoLava : MonoBehaviour {
             if (Input.GetKeyDown("w"))
             {
                 Destroy(msgDestroy);
-                WallController(false);
+                //WallController(false);
+                player.GetComponent<playerController>().frozen = false;
                 caged = false;
                 colliderLava.SetActive(false);
 
@@ -35,7 +36,8 @@ public class eventoLava : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        WallController(true);
+        player.GetComponent<playerController>().frozen = true;
+        //WallController(true);
         caged = true;
         Instantiate(msg);
     }

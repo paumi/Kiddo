@@ -8,6 +8,7 @@ public class playerController : MonoBehaviour {
     public float sprint;
     public float jumpForce;
     public float stamina;
+    public bool frozen;
     private float moveInputH;
     private float moveInputV;
     private int i;
@@ -45,6 +46,8 @@ public class playerController : MonoBehaviour {
 
 	void Start () {
 
+        frozen = false;
+
         extraJump = extraJumpValue;
 
         rb = GetComponent<Rigidbody2D>();
@@ -70,7 +73,7 @@ public class playerController : MonoBehaviour {
         moveInputV = Input.GetAxis("Vertical");
 
         //Debug.Log(isDead);
-        if (!isDead)
+        if (!isDead && !frozen)
         {
             if (!(moveInputV < 0))
             {
