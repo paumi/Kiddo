@@ -128,6 +128,7 @@ public class playerController : MonoBehaviour {
             {
                 rb.velocity = new Vector2( 0, rb.velocity.y);
                 upCollider.enabled = false;
+                animator.SetBool("running", false);
             }
 
             if (jumpRequest)
