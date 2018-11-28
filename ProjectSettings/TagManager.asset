@@ -12,6 +12,7 @@ TagManager:
   - cambio
   - changeScreen
   - text
+  - escudo
   layers:
   - Default
   - TransparentFX

@@ -253,6 +253,11 @@ public class playerController : MonoBehaviour {
             i++;
             gameObject.GetComponent<atributes>().life--;
         }
+        //añadido para tener una vida mas al tocar el escudo
+        if (col.gameObject.tag == "escudo")
+            gameObject.GetComponent<atributes>().life++;
+        
+                
     }
 
     //Fin plataformas moviles
