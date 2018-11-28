@@ -11,7 +11,7 @@ public class ShootingBully : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        tiempo = 3f;
+        tiempo = 5f;
         InvokeRepeating("shooting", tiempo, tiempo);
     }
 	
