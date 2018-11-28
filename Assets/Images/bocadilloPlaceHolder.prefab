@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1419092547393318}
+  m_RootGameObject: {fileID: 1028619158313898}
   m_IsPrefabAsset: 1
---- !u!1 &1419092547393318
+--- !u!1 &1028619158313898
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4815913435293348}
-  - component: {fileID: 212498640564450112}
+  - component: {fileID: 4756738335203608}
+  - component: {fileID: 212817485633479810}
   m_Layer: 0
   m_Name: bocadilloPlaceHolder
   m_TagString: text
@@ -27,25 +27,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4815913435293348
+--- !u!4 &4756738335203608
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1419092547393318}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 221.83, y: 5.49, z: 0}
+  m_GameObject: {fileID: 1028619158313898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 226.62, y: 1.4399996, z: 0}
   m_LocalScale: {x: 0.42839, y: 0.42839, z: 0.42839}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &212498640564450112
+--- !u!212 &212817485633479810
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1419092547393318}
+  m_GameObject: {fileID: 1028619158313898}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
