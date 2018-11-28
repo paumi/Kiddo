@@ -4476,7 +4476,6 @@ GameObject:
   m_Component:
   - component: {fileID: 455006896}
   - component: {fileID: 455006895}
-  - component: {fileID: 455006894}
   - component: {fileID: 455006893}
   m_Layer: 10
   m_Name: Farola_Macetero
@@ -4497,7 +4496,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.3426573, y: 3.0208993}
+  m_Offset: {x: 0.04468894, y: 3.0208993}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4508,32 +4507,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.517653, y: 0.5191052}
-  m_EdgeRadius: 0
---- !u!61 &455006894
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 455006892}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: c35464677b88f744c8500baebf7f400f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -3.2035594, y: 2.9355662}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 13.92, y: 27.010002}
-    newSize: {x: 13.92, y: 27.010002}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.596945, y: 0.5467725}
+  m_Size: {x: 11.11359, y: 0.51910496}
   m_EdgeRadius: 0
 --- !u!212 &455006895
 SpriteRenderer:
@@ -5343,7 +5317,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 610077741}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 514.2, y: -1.9, z: 0}
+  m_LocalPosition: {x: 519.95, y: -1.9, z: 0}
   m_LocalScale: {x: 0.59999996, y: 0.59999996, z: 0.59999996}
   m_Children: []
   m_Father: {fileID: 163097246}
@@ -11676,7 +11650,6 @@ GameObject:
   - component: {fileID: 1125132532}
   - component: {fileID: 1125132535}
   - component: {fileID: 1125132534}
-  - component: {fileID: 1125132533}
   m_Layer: 10
   m_Name: Farola_Macetero_2
   m_TagString: Untagged
@@ -11697,31 +11670,6 @@ Transform:
   m_Father: {fileID: 746983726}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1125132533
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1125132531}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: c35464677b88f744c8500baebf7f400f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 3.3426573, y: 3.0208993}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 13.93, y: 27.009998}
-    newSize: {x: 13.92, y: 27.010002}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.517653, y: 0.5191052}
-  m_EdgeRadius: 0
 --- !u!61 &1125132534
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11734,7 +11682,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.2035594, y: 2.9355662}
+  m_Offset: {x: 0.030980825, y: 2.9355662}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11745,7 +11693,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.596945, y: 0.5467725}
+  m_Size: {x: 11.066025, y: 0.5467725}
   m_EdgeRadius: 0
 --- !u!212 &1125132535
 SpriteRenderer:
@@ -18052,7 +18000,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1780012023}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 695, y: -3.628683, z: -1.6294243}
+  m_LocalPosition: {x: 702.22, y: -3.628683, z: -1.6294243}
   m_LocalScale: {x: 0.71481997, y: 0.71481997, z: 0.71481997}
   m_Children: []
   m_Father: {fileID: 746983726}
@@ -18549,7 +18497,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1834448330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 707.31, y: 0.70131683, z: -1.6294243}
+  m_LocalPosition: {x: 713.26, y: 0.70131683, z: -1.6294243}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children: []
   m_Father: {fileID: 746983726}
@@ -21077,6 +21025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141012067}
   - component: {fileID: 2141012068}
+  - component: {fileID: 2141012069}
   m_Layer: 10
   m_Name: Farola_1 (7)
   m_TagString: Untagged
@@ -21143,6 +21092,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2141012069
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2141012066}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.09311052, y: 4.1594105}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.84, y: 27.01}
+    newSize: {x: 5.84, y: 27.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.56326747, y: 18.691181}
+  m_EdgeRadius: 0
 --- !u!1 &2145465460
 GameObject:
   m_ObjectHideFlags: 0
