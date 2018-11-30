@@ -17,6 +17,7 @@ public class killPlayer : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("golpeado");
         Kiddo.GetComponent<atributes>().life--;
     }
 }

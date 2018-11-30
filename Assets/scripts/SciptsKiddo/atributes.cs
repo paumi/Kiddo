@@ -64,6 +64,7 @@ public class atributes : MonoBehaviour {
             animator.SetBool("Dead", true);
             life = 1;
             gameObject.GetComponent<playerController>().extraJumpValue = 0;
+            gameObject.GetComponent<playerController>().invencible = false;
             return false;
         }
 

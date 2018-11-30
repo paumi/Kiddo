@@ -10,7 +10,7 @@ public class playerController : MonoBehaviour {
     public float stamina;
     public bool frozen;
 
-    private bool invencible;
+    public bool invencible;
     private float invencibleTime;
     private float invencibleTimeMax;
 
