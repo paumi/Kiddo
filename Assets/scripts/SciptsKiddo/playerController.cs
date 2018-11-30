@@ -9,11 +9,16 @@ public class playerController : MonoBehaviour {
     public float jumpForce;
     public float stamina;
     public bool frozen;
+
+    private bool invencible;
+    private float invencibleTime;
+    private float invencibleTimeMax;
+
     private float moveInputH;
     private float moveInputV;
-    private int i;
 
     public BoxCollider2D upCollider;
+    public SpriteRenderer sprite;
 
     private bool isDying;
 
@@ -58,6 +63,10 @@ public class playerController : MonoBehaviour {
         sprintCharged = true;
         isDying = false;
         jumpRequest = false;
+        invencible = false;
+
+        invencibleTime = 1f;
+        invencibleTimeMax = 1f;
 
     }
 
@@ -71,6 +80,15 @@ public class playerController : MonoBehaviour {
         moveInputH = Input.GetAxis("Horizontal");
 
         moveInputV = Input.GetAxis("Vertical");
+
+        if (invencible)
+        {
+            sprite.enabled = !sprite.enabled;
+        }
+        else
+        {
+            sprite.enabled = true;
+        }
 
         //Debug.Log(isDead);
         if (!isDead && !frozen)
@@ -155,6 +173,18 @@ public class playerController : MonoBehaviour {
 
         animator.SetFloat("Speed", Mathf.Abs(moveInputH * speed));
 
+        if (invencible)
+        {
+            if (invencibleTime < 0)
+            {
+                invencibleTime = invencibleTimeMax;
+                invencible = false;
+            }
+            else { invencibleTime -= (Time.deltaTime/2); }
+
+
+        }
+
     }
 
     
@@ -166,7 +196,7 @@ public class playerController : MonoBehaviour {
         {
             jumpRequest = true;
         }
-
+        
 
         isDead = gameObject.GetComponent<atributes>().dying;
 
@@ -249,18 +279,34 @@ public class playerController : MonoBehaviour {
 
         if (col.gameObject.tag == "Harmfull")
         {
-            Debug.Log(i);
-            i++;
-            gameObject.GetComponent<atributes>().life--;
-        }
-        //añadido para tener una vida mas al tocar el escudo
-        if (col.gameObject.tag == "escudo")
-            gameObject.GetComponent<atributes>().life++;
-        
-                
+            if (!invencible)
+            {
+                invencible = true;
+                gameObject.GetComponent<atributes>().life--;
+            }
+        }            
     }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "escudo")
+        {
+            if (gameObject.GetComponent<atributes>().life < 2)
+            {
+                Debug.Log("vidaExtra");
+                gameObject.GetComponent<atributes>().life++;
+            }
 
-    //Fin plataformas moviles
+        }
+
+        if (col.gameObject.tag == "cohete")
+        {
+
+            Debug.Log("extraJump");
+            extraJumpValue = 1;
+ 
+
+        }
+    }
 
 }
 

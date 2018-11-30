@@ -13,6 +13,7 @@ TagManager:
   - changeScreen
   - text
   - escudo
+  - cohete
   layers:
   - Default
   - TransparentFX

@@ -63,6 +63,7 @@ public class atributes : MonoBehaviour {
             dying = true;
             animator.SetBool("Dead", true);
             life = 1;
+            gameObject.GetComponent<playerController>().extraJumpValue = 0;
             return false;
         }
 
