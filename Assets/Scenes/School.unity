@@ -1682,6 +1682,8 @@ GameObject:
   m_Component:
   - component: {fileID: 474565979}
   - component: {fileID: 474565978}
+  - component: {fileID: 474565981}
+  - component: {fileID: 474565980}
   m_Layer: 10
   m_Name: Pizarra - Enemigo
   m_TagString: Untagged
@@ -1748,6 +1750,42 @@ Transform:
   m_Father: {fileID: 1379925380}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &474565980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474565977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f130ec29ae7f49bfd96222ac53a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &474565981
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474565977}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.8265305}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.05, y: 10.18}
+    newSize: {x: 19.05, y: 10.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.05, y: 13.833061}
+  m_EdgeRadius: 0
 --- !u!1 &505530360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3798,6 +3836,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1115398417}
   - component: {fileID: 1115398416}
+  - component: {fileID: 1115398419}
+  - component: {fileID: 1115398418}
   m_Layer: 10
   m_Name: Pizarra - Mov
   m_TagString: Untagged
@@ -3864,6 +3904,42 @@ Transform:
   m_Father: {fileID: 1379925380}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1115398418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1115398415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f130ec29ae7f49bfd96222ac53a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1115398419
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1115398415}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.305418}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.05, y: 10.18}
+    newSize: {x: 19.05, y: 10.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.05, y: 12.790836}
+  m_EdgeRadius: 0
 --- !u!1 &1120264003
 GameObject:
   m_ObjectHideFlags: 0
@@ -4854,7 +4930,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1412995533}
-  - component: {fileID: 1412995535}
   - component: {fileID: 1412995534}
   m_Layer: 0
   m_Name: Camara
@@ -4893,19 +4968,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1098134599}
   softness: 1
---- !u!114 &1412995535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1412995532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01070b22e37a646c2a05e6fad955224f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
-  slider: {fileID: 0}
 --- !u!1 &1424518446
 GameObject:
   m_ObjectHideFlags: 0
@@ -5535,7 +5597,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1658667593}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 184.5, y: 2.6, z: 0}
+  m_LocalPosition: {x: 396.4, y: 2.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6681,6 +6743,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2080995712}
   - component: {fileID: 2080995711}
+  - component: {fileID: 2080995714}
+  - component: {fileID: 2080995713}
   m_Layer: 10
   m_Name: Pizarra - Correr
   m_TagString: Untagged
@@ -6747,6 +6811,42 @@ Transform:
   m_Father: {fileID: 1379925380}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2080995713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080995710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f130ec29ae7f49bfd96222ac53a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &2080995714
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080995710}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.3871765}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.05, y: 10.18}
+    newSize: {x: 19.05, y: 10.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.05, y: 12.954353}
+  m_EdgeRadius: 0
 --- !u!1 &2091507417
 GameObject:
   m_ObjectHideFlags: 0
