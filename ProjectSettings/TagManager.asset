@@ -14,6 +14,7 @@ TagManager:
   - text
   - escudo
   - cohete
+  - pelota
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - Bounds
   - Enemies
   - prueba_1
-  - 
+  - pelota
   - 
   - 
   - 

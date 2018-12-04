@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour {
 
@@ -304,6 +305,14 @@ public class playerController : MonoBehaviour {
             Debug.Log("extraJump");
             extraJumpValue = 1;
  
+
+        }
+
+        if (col.gameObject.tag == "pelota")
+        {
+            Debug.Log("pelota");
+            SceneManager.LoadScene("Menu");
+
 
         }
     }
