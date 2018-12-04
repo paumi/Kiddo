@@ -1684,7 +1684,7 @@ GameObject:
   - component: {fileID: 474565978}
   - component: {fileID: 474565981}
   - component: {fileID: 474565980}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pizarra - Enemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3838,7 +3838,7 @@ GameObject:
   - component: {fileID: 1115398416}
   - component: {fileID: 1115398419}
   - component: {fileID: 1115398418}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pizarra - Mov
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6772,7 +6772,7 @@ GameObject:
   - component: {fileID: 2080995711}
   - component: {fileID: 2080995714}
   - component: {fileID: 2080995713}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pizarra - Correr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
