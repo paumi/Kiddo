@@ -1643,6 +1643,9 @@ Prefab:
       propertyPath: m_Name
       value: escudo1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1366505399434490, guid: dd0c59cddf6f66941817a5d5cc74707e, type: 2}
+      propertyPath: m_TagString
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114930294458540898, guid: dd0c59cddf6f66941817a5d5cc74707e, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: dd0c59cddf6f66941817a5d5cc74707e, type: 2}
