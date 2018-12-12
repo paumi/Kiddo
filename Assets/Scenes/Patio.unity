@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 511578695}
-  speed: 2
+  speed: 3
 --- !u!1001 &42678979
 Prefab:
   m_ObjectHideFlags: 0
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1387757875}
-  speed: 2
+  speed: 3
 --- !u!1 &117635220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,7 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 852358673}
-  speed: 1
+  speed: 2
 --- !u!1 &163097245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +1645,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1366505399434490, guid: dd0c59cddf6f66941817a5d5cc74707e, type: 2}
       propertyPath: m_TagString
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114930294458540898, guid: dd0c59cddf6f66941817a5d5cc74707e, type: 2}
@@ -1900,7 +1901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1721971213}
-  speed: 2
+  speed: 3
 --- !u!1 &267011216
 GameObject:
   m_ObjectHideFlags: 0
@@ -4493,7 +4494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 267011217}
-  speed: 2
+  speed: 3
 --- !u!61 &664425090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5080,7 +5081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 998151306}
-  speed: 1
+  speed: 2
 --- !u!1001 &779383585
 Prefab:
   m_ObjectHideFlags: 0
@@ -7907,6 +7908,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114503097575510250, guid: 89d2e2ede95864e4393f982e37795b0b,
+        type: 2}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89d2e2ede95864e4393f982e37795b0b, type: 2}
   m_IsPrefabAsset: 0
@@ -9626,7 +9632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 101311264}
-  speed: 2
+  speed: 3
 --- !u!1 &1232965371
 GameObject:
   m_ObjectHideFlags: 0
@@ -11589,7 +11595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1913208907}
-  speed: 1
+  speed: 3
 --- !u!1 &1498170203
 GameObject:
   m_ObjectHideFlags: 0
@@ -12244,7 +12250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2025889007}
-  speed: 2
+  speed: 3
 --- !u!4 &1676578700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4084541874025672, guid: b6b10733314dd494f99262a54c833b8d,
