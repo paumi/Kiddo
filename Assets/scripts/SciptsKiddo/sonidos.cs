@@ -14,7 +14,6 @@ public class sonidos : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
         fuenteAudio = GetComponent<AudioSource>();
     }
 	
@@ -25,7 +24,6 @@ public class sonidos : MonoBehaviour {
         {
             fuenteAudio.clip = salto;
             fuenteAudio.Play();
-
         }
 
         if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("sprint")))
@@ -35,7 +33,6 @@ public class sonidos : MonoBehaviour {
         }
     }
 }
-
 
 // fuenteAudio.clip = muerte;
 // fuenteAudio.Play();
