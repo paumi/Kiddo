@@ -38,6 +38,8 @@ public class playerController : MonoBehaviour {
     public int extraJumpValue;
     private int extraJump;
 
+   
+
     private Rigidbody2D rb;
 
     public Animator animator;
@@ -68,6 +70,7 @@ public class playerController : MonoBehaviour {
 
         invencibleTime = 1f;
         invencibleTimeMax = 1f;
+
 
     }
 
@@ -304,19 +307,13 @@ public class playerController : MonoBehaviour {
 
             Debug.Log("extraJump");
             extraJumpValue = 1;
- 
-
         }
 
         if (col.gameObject.tag == "pelota")
         {
             Debug.Log("pelota");
             SceneManager.LoadScene("Menu");
-
-
         }
     }
 
 }
-
-
