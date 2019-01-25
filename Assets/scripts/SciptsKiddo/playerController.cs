@@ -25,7 +25,7 @@ public class playerController : MonoBehaviour {
 
     private bool facingRight;
     public bool sprintCharged;
-    private bool jumpRequest;
+    public bool jumpRequest;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -52,7 +52,7 @@ public class playerController : MonoBehaviour {
 
    
 
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     public Animator animator;
 
