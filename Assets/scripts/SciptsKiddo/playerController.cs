@@ -38,6 +38,18 @@ public class playerController : MonoBehaviour {
     public int extraJumpValue;
     private int extraJump;
 
+    //NUEVO PAUU
+    public AudioClip salto;
+    public AudioClip caminar;
+    public AudioClip muerte;
+    public AudioClip daño;
+    public AudioClip doblesalto;
+    public AudioClip ganar;
+    AudioSource fuenteAudio;
+
+    public bool sonar;
+    //NUEVO PAU
+
    
 
     private Rigidbody2D rb;
@@ -67,9 +79,13 @@ public class playerController : MonoBehaviour {
         isDying = false;
         jumpRequest = false;
         invencible = false;
+        sonar = true;
 
         invencibleTime = 1f;
         invencibleTimeMax = 1f;
+
+        //NUEVO
+        fuenteAudio = GetComponent<AudioSource>();
 
 
     }
@@ -88,6 +104,7 @@ public class playerController : MonoBehaviour {
         if (invencible)
         {
             sprite.enabled = !sprite.enabled;
+
         }
         else
         {
@@ -103,6 +120,8 @@ public class playerController : MonoBehaviour {
                 upCollider.enabled = true;
                 if (moveInputH != 0)
                 {
+                        
+
                     if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("sprint")) && sprintCharged)
                     {
 
@@ -111,6 +130,7 @@ public class playerController : MonoBehaviour {
                          stamina -= Time.deltaTime;
                          //Debug.Log(stamina);
                          animator.SetBool("running", true);
+                         
                          if (stamina <= 0)
                          {
                              sprintCharged = false;
@@ -120,6 +140,8 @@ public class playerController : MonoBehaviour {
                     }
                     else
                     {
+                        
+
                         rb.velocity = new Vector2(moveInputH * speed, rb.velocity.y);
                         animator.SetBool("running", false);
                         chargeStamina();
@@ -128,6 +150,7 @@ public class playerController : MonoBehaviour {
                 }
                 else
                 {
+
                     animator.SetBool("running", false);
                     chargeStamina();
                     rb.velocity = new Vector2(0, rb.velocity.y);
@@ -141,10 +164,15 @@ public class playerController : MonoBehaviour {
                 //Darle la vuelta al sprite cuando mira hacia la izquierda
 
                 if (moveInputH > 0 && facingRight == false)
-                {
+                {   
+                    fuenteAudio.clip = caminar;
+                    fuenteAudio.Play();
                     Flip();
                 }
-                else if (moveInputH < 0 && facingRight == true) { Flip(); }
+                else if (moveInputH < 0 && facingRight == true) { 
+                    fuenteAudio.clip = caminar;
+                    fuenteAudio.Play();
+                    Flip(); }
             }
             else
             {
@@ -157,12 +185,18 @@ public class playerController : MonoBehaviour {
             {
                 if (isGrounded)
                 {
+                    fuenteAudio.clip = salto;
+                    fuenteAudio.Play();
+                    sonar = true;
                     rb.velocity = Vector2.up * jumpForce;
+                    
                 }
                 else
                 {
                     if (extraJump > 0)
                     {
+                        fuenteAudio.clip = salto;
+                        fuenteAudio.Play();
                         rb.velocity = Vector2.up * jumpForce;
                         extraJump--;
                     }
@@ -203,6 +237,12 @@ public class playerController : MonoBehaviour {
         
 
         isDead = gameObject.GetComponent<atributes>().dying;
+        if(isDead){
+            if (sonar){
+            //fuenteAudio.clip = muerte;
+            fuenteAudio.PlayOneShot(muerte, 0.7F);
+            sonar = false;}
+        }
 
         //Se maneja si se agacha o no
 
@@ -286,6 +326,9 @@ public class playerController : MonoBehaviour {
             if (!invencible)
             {
                 invencible = true;
+                if (gameObject.GetComponent<atributes>().life == 2){
+                    fuenteAudio.clip = daño;
+                    fuenteAudio.Play();}
                 gameObject.GetComponent<atributes>().life--;
             }
         }            

@@ -8,8 +8,14 @@ public class eventoLava : MonoBehaviour {
     public GameObject wallLeft, wallRight, colliderLava, ground;
     public GameObject msg , player;
     bool caged = false;
+
+
+
+    public AudioClip sonido;
+    AudioSource fuenteAudio;
 	// Use this for initialization
 	void Start () {
+        fuenteAudio = GetComponent<AudioSource>();
        
 	}
 	
@@ -20,6 +26,7 @@ public class eventoLava : MonoBehaviour {
         {
             GameObject msgDestroy = GameObject.FindGameObjectWithTag("text");
             ground.GetComponent<moveGround>().start = true;
+            
 
             if (Input.GetKeyDown("w"))
             {
@@ -39,6 +46,8 @@ public class eventoLava : MonoBehaviour {
         player.GetComponent<playerController>().frozen = true;
         //WallController(true);
         caged = true;
+        fuenteAudio.clip = sonido;
+        fuenteAudio.Play();
         Instantiate(msg);
     }
 

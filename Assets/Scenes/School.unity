@@ -4270,6 +4270,31 @@ Prefab:
       propertyPath: m_Offset.y
       value: -0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114860256504445496, guid: bbec6352c2a4f9e4faa2671ead62e22f,
+        type: 2}
+      propertyPath: salto
+      value: 
+      objectReference: {fileID: 8300000, guid: c58cabfc3e709aa45b51cb8750a17498, type: 3}
+    - target: {fileID: 114860256504445496, guid: bbec6352c2a4f9e4faa2671ead62e22f,
+        type: 2}
+      propertyPath: caminar
+      value: 
+      objectReference: {fileID: 8300000, guid: 9dd31e5fa0df50d459d35b7383b13801, type: 3}
+    - target: {fileID: 114860256504445496, guid: bbec6352c2a4f9e4faa2671ead62e22f,
+        type: 2}
+      propertyPath: muerte
+      value: 
+      objectReference: {fileID: 8300000, guid: 4734902242e7cbb4b90a01b848fc2ec2, type: 3}
+    - target: {fileID: 114860256504445496, guid: bbec6352c2a4f9e4faa2671ead62e22f,
+        type: 2}
+      propertyPath: "da\xF1o"
+      value: 
+      objectReference: {fileID: 8300000, guid: a3aae11bb4bb3c54494c0e1b1feaecf6, type: 3}
+    - target: {fileID: 114860256504445496, guid: bbec6352c2a4f9e4faa2671ead62e22f,
+        type: 2}
+      propertyPath: doblesalto
+      value: 
+      objectReference: {fileID: 8300000, guid: b603f641187fcc842878ad88d3ecb743, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbec6352c2a4f9e4faa2671ead62e22f, type: 2}
   m_IsPrefabAsset: 0
@@ -4373,23 +4398,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1173117974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1173117972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bbcb847e5dff2546aa6f2315684cf82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  salto: {fileID: 8300000, guid: c58cabfc3e709aa45b51cb8750a17498, type: 3}
-  caminar: {fileID: 8300000, guid: 9dd31e5fa0df50d459d35b7383b13801, type: 3}
-  muerte: {fileID: 8300000, guid: 4734902242e7cbb4b90a01b848fc2ec2, type: 3}
-  "da\xF1o": {fileID: 8300000, guid: a3aae11bb4bb3c54494c0e1b1feaecf6, type: 3}
-  doblesalto: {fileID: 8300000, guid: b603f641187fcc842878ad88d3ecb743, type: 3}
-  correr: {fileID: 0}
 --- !u!1 &1215116616
 GameObject:
   m_ObjectHideFlags: 0

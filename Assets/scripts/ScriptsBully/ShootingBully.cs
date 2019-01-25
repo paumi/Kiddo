@@ -8,9 +8,12 @@ public class ShootingBully : MonoBehaviour {
 
     public Transform firePoint;
     public GameObject ball;
+    public AudioClip lanzar;
+    AudioSource fuenteAudio;
 
 	// Use this for initialization
 	void Start () {
+        fuenteAudio = GetComponent<AudioSource>();
         tiempo = 5f;
         InvokeRepeating("shooting", tiempo, tiempo);
     }
