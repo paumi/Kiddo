@@ -38,17 +38,13 @@ public class atributes : MonoBehaviour {
             {
                 animationTime = maxAnimaionTime;
                 dying = false;
-                ReSpawn();
+                if (CheckLife()) ReSpawn();
             }
             else
             {
                 animationTime -= Time.deltaTime;
             }
         }
-
-        CheckLife();
-
-
 
         if (!dying)
         {
